@@ -176,7 +176,7 @@ const Sliders  = () => {
                     inputProps={{ 'aria-label': 'controlled' }}
                     onClick={statusChange}
                 />
-                <Slider
+                <Slider className="container__Slider"
                     aria-label="Time"
                     valueLabelDisplay="on"
                     step={1}
@@ -189,11 +189,7 @@ const Sliders  = () => {
                     disabled={status}
                         sx={{'& .MuiSlider-mark': {
                                 height: "15px",
-                            },
-                            '& .MuiSlider-rail': {
-                                height: "8px",
-
-                            }}}
+                            },}}
                 />
             </div>
             <div className = "container__Days">
@@ -204,7 +200,7 @@ const Sliders  = () => {
                     inputProps={{ 'aria-label': 'controlled' }}
                     onClick={statusChange2}
                 />
-                <Slider
+                <Slider className="container__Slider"
                         aria-label="Time"
                         defaultValue={20}
                         valueLabelDisplay="on"
@@ -218,11 +214,7 @@ const Sliders  = () => {
                         disabled={status2}
                         sx={{'& .MuiSlider-mark': {
                                 height: "15px",
-                            },
-                            '& .MuiSlider-rail': {
-                                height: "8px",
-
-                            }}}
+                            },}}
                 />
             </div>
             <div className = "container__Days">
@@ -233,7 +225,7 @@ const Sliders  = () => {
                     inputProps={{ 'aria-label': 'controlled' }}
                     onClick={statusChange3}
                 />
-                <Slider
+                <Slider className="container__Slider"
                         aria-label="Time"
                         valueLabelDisplay="on"
                         step={1}
@@ -246,11 +238,7 @@ const Sliders  = () => {
                         disabled={status3}
                         sx={{'& .MuiSlider-mark': {
                                 height: "15px",
-                            },
-                            '& .MuiSlider-rail': {
-                                height: "8px",
-
-                            }}}
+                            },}}
                 />
             </div>
             <div className = "container__Days">
@@ -261,7 +249,7 @@ const Sliders  = () => {
                     inputProps={{ 'aria-label': 'controlled' }}
                     onClick={statusChange4}
                 />
-                <Slider
+                <Slider className="container__Slider"
                         aria-label="Time"
                         valueLabelDisplay="on"
                         step={1}
@@ -274,11 +262,7 @@ const Sliders  = () => {
                         disabled={status4}
                         sx={{'& .MuiSlider-mark': {
                                 height: "15px",
-                            },
-                            '& .MuiSlider-rail': {
-                                height: "8px",
-
-                            }}}
+                            },}}
                 />
             </div>
             <div className = "container__Days">
@@ -289,7 +273,7 @@ const Sliders  = () => {
                     inputProps={{ 'aria-label': 'controlled' }}
                     onClick={statusChange5}
                 />
-                <Slider
+                <Slider className="container__Slider"
                         aria-label="Time"
                         valueLabelDisplay="on"
                         step={1}
@@ -302,11 +286,7 @@ const Sliders  = () => {
                         disabled={status5}
                         sx={{'& .MuiSlider-mark': {
                                 height: "15px",
-                            },
-                            '& .MuiSlider-rail': {
-                                height: "8px",
-
-                            }}}
+                            },}}
                 />
             </div>
             <div className = "container__Days">
@@ -317,7 +297,7 @@ const Sliders  = () => {
                     inputProps={{ 'aria-label': 'controlled' }}
                     onClick={statusChange6}
                 />
-                <Slider className="container__slider"
+                <Slider className="container__Slider"
                         aria-label="Time"
                         valueLabelDisplay="on"
                         step={1}
@@ -330,11 +310,7 @@ const Sliders  = () => {
                         disabled={status6}
                         sx={{'& .MuiSlider-mark': {
                                 height: "15px",
-                            },
-                            '& .MuiSlider-rail': {
-                                height: "8px",
-
-                            }}}
+                            },}}
                 />
             </div>
             <div className = "container__Days">
@@ -345,7 +321,7 @@ const Sliders  = () => {
                     inputProps={{ 'aria-label': 'controlled' }}
                     onClick={statusChange7}
                 />
-                <Slider
+                <Slider className="container__Slider"
                         aria-label="Time"
                         valueLabelDisplay="on"
                         step={1}
@@ -358,11 +334,7 @@ const Sliders  = () => {
                         disabled={status7}
                         sx={{'& .MuiSlider-mark': {
                                 height: "15px",
-                            },
-                            '& .MuiSlider-rail': {
-                                height: "8px",
-
-                            }}}
+                            },}}
                 />
             </div>
             </div>
